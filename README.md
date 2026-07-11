@@ -42,8 +42,23 @@ It's **read-only** and fully local: it reads only the small hourly aggregates Pe
 
 ## Screenshots
 
-<!-- SCREENSHOTS -->
-*Coming soon.*
+### The dashboard
+
+Live blink rate, screen distance, posture, lighting, and call-readiness — all computed on-device.
+
+![Perch dashboard](docs/dashboard.png)
+
+### Private by design
+
+The detection view shows the tracking points, not you — your face stays blurred, and no frame is ever saved or sent.
+
+![Detection view with face blurred, tracking points visible](docs/detection.png)
+
+### Ask Claude about your trends
+
+With the `.dxt` extension installed, Claude reads your local aggregates and answers questions in plain language.
+
+![Claude summarizing Perch data](docs/claude.png)
 
 ---
 
