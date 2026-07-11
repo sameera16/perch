@@ -50,9 +50,11 @@ Live blink rate, screen distance, posture, lighting, and call-readiness — all 
 
 ### Private by design
 
-The detection view shows the tracking points, not you — your face stays blurred, and no frame is ever saved or sent.
+The camera preview is **off by default** — Perch runs without ever showing you. When you do turn it on, you see live tracking points overlaid on the feed, and processing stays entirely on-device: no frame is saved or sent.
 
-![Detection view with face blurred, tracking points visible](docs/detection.png)
+![Detection view with tracking points overlaid](docs/detection.png)
+
+> *The face in this screenshot is blurred by us for the README — it's a real camera frame we didn't want on a public page, not an in-app effect.*
 
 ### Ask Claude about your trends
 
