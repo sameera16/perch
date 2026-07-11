@@ -1,6 +1,8 @@
-# Perch 🪺
-
-**A gentle, privacy-first desktop coach for your eyes and posture.**
+<div align="center">
+  <img src="docs/icon.png" width="112" alt="Perch">
+  <h1>Perch</h1>
+  <p><strong>A gentle, privacy-first desktop coach for your eyes and posture.</strong></p>
+</div>
 
 Perch uses your Mac's camera **locally** (on-device AI) to watch your blink rate, screen distance, posture, and lighting, then gives small, well-timed nudges to look away, sit back, or fix your setup. **No video, images, audio, or face data ever leaves your Mac.**
 
