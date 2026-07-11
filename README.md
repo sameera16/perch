@@ -1,14 +1,54 @@
-# Perch
+# Perch 🪺
 
-Perch is a privacy-first desktop coach for screen behavior. It uses local camera processing to estimate blink rate, distance, posture, lighting, and meeting framing signals, then gives gentle nudges.
+**A gentle, privacy-first desktop coach for your eyes and posture.**
 
-This public repository is used for release downloads only. The app source code is not published here.
+Perch uses your Mac's camera **locally** (on-device AI) to watch your blink rate, screen distance, posture, and lighting — then gives small, well-timed nudges to look away, sit back, or fix your setup. **No video, images, audio, or face data ever leaves your Mac.**
+
+This public repository is used for **release downloads only** — the app source code is not published here.
+
+---
 
 ## Download
 
-Use the latest release for macOS DMG downloads.
+Grab the newest build from the [**latest release**](https://github.com/sameera16/perch/releases/latest):
 
-- Apple Silicon Macs: use the arm64 DMG.
-- Intel Macs: use the plain macOS DMG.
+- **Apple Silicon Mac** → `Perch-<version>-arm64.dmg`
+- **Intel Mac** → `Perch-<version>.dmg`
 
-Privacy: the app does not upload raw video, images, audio, face landmarks, or screen contents.
+> **Not sure which Mac you have?** Click the **Apple menu → About This Mac** and look at **Chip**: if it starts with **Apple** (M1, M2, M3, or M4), choose Apple Silicon; if it says **Intel**, choose Intel.
+
+### Install
+
+1. Open the DMG and drag **Perch** into **Applications**.
+2. In Applications, **right-click Perch → Open**, then click **Open** again.
+   *(Perch isn't notarized by Apple yet, so this one-time step is required — after that it opens normally.)*
+3. When macOS asks, **Allow** camera access.
+
+The first launch can take a little longer while macOS scans the app — that's normal and only happens once.
+
+---
+
+## Ask Claude about your own data (optional)
+
+The latest release also includes **`Perch-<version>.dxt`** — a local [Claude Desktop](https://claude.ai/download) extension. Double-click it to install (no terminal, no setup), then ask Claude natural-language questions about your own trends:
+
+- *"When during the day is my posture worst?"*
+- *"Is my blink rate below my baseline in the afternoons?"*
+- *"Which nudges do I dismiss most?"*
+
+It's **read-only** and fully local: it reads only the small hourly aggregates Perch keeps on your machine — never video, images, or face landmarks — and nothing leaves your Mac except what you choose to send to Claude.
+
+---
+
+## Screenshots
+
+<!-- SCREENSHOTS -->
+*Coming soon.*
+
+---
+
+## Privacy
+
+All processing happens **on-device**. Perch never uploads video, images, audio, face/pose landmarks, or screen contents. Optional anonymous analytics are **off by default**.
+
+This is a behavior-coaching tool, not a medical device — it does not diagnose or detect any medical condition.
