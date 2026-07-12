@@ -37,6 +37,7 @@ The latest release also includes **`Perch-<version>.dxt`**, a local [Claude Desk
 - *"When during the day is my posture worst?"*
 - *"Is my blink rate below my baseline in the afternoons?"*
 - *"Which nudges do I dismiss most?"*
+- *"Which of my nudges actually work?"*
 
 It's **read-only** and fully local: it reads only the small hourly aggregates Perch keeps on your machine (never video, images, or face landmarks), and nothing leaves your Mac except what you choose to send to Claude.
 
@@ -46,7 +47,7 @@ It's **read-only** and fully local: it reads only the small hourly aggregates Pe
 
 ### The dashboard
 
-Live blink rate, screen distance, posture, lighting, and call-readiness, all computed on-device.
+Live blink rate, screen distance, posture, lighting, and an at-a-glance status row, all computed on-device.
 
 ![Perch dashboard](docs/dashboard.png)
 
