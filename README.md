@@ -67,6 +67,18 @@ With the `.dxt` extension installed, Claude reads your local aggregates and answ
 
 ---
 
+## Roadmap
+
+Perch is actively evolving. These are directions we are exploring for future releases (ideas, not promises, and always on Perch's terms: local-first, opt-in, and easy to undo):
+
+- **A screen that adapts to your eyes.** Perch gently warms or dims your display in real time when it detects eye strain and poor lighting, entirely on-device.
+- **Coaching that proves itself.** Building on the nudge-efficacy work in 0.3.0: weekly summaries of which nudges actually help you, and automatically easing off the ones that never do.
+- **An agent that sets up your day for you.** With the extension and your calendar connected, Perch's Claude agent reads tomorrow's schedule and your recent strain patterns, then does the legwork: it schedules short eye-rest holds in the gaps between back-to-back meetings, prepares your screen for late-night work, and eases off nudges that have not been helping. It leaves you a short brief of what it changed, and you can undo anything in one click.
+- **A coach that can act, not just report.** Optional, confirm-first actions Perch can take on your behalf based on your own patterns, always reversible.
+- **Session and trend views.** "How was this focus block?" and "am I improving versus last month?", answered from your own history.
+
+---
+
 ## Privacy
 
 All processing happens **on-device**. Perch never uploads video, images, audio, face/pose landmarks, or screen contents. Optional anonymous analytics are **off by default**.
